@@ -6,17 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		85E557FC2CDAB57F00E1AC12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85E557F62CDAB57F00E1AC12 /* Preview Assets.xcassets */; };
+		85E557FD2CDAB57F00E1AC12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85E557F82CDAB57F00E1AC12 /* Assets.xcassets */; };
+		85E557FF2CDAB57F00E1AC12 /* MyGeometricFiguresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E557FA2CDAB57F00E1AC12 /* MyGeometricFiguresApp.swift */; };
+		85E558032CDAB5C300E1AC12 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E558022CDAB5C300E1AC12 /* Rectangle.swift */; };
+		85E558052CDAB63E00E1AC12 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E558042CDAB63E00E1AC12 /* RectangleView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		85E557E52CDAB55500E1AC12 /* MyGeometricFigures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGeometricFigures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85E557F62CDAB57F00E1AC12 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		85E557F82CDAB57F00E1AC12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85E557FA2CDAB57F00E1AC12 /* MyGeometricFiguresApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGeometricFiguresApp.swift; sourceTree = "<group>"; };
+		85E558022CDAB5C300E1AC12 /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
+		85E558042CDAB63E00E1AC12 /* RectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		85E557E72CDAB55500E1AC12 /* MyGeometricFigures */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MyGeometricFigures;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		85E557E22CDAB55500E1AC12 /* Frameworks */ = {
@@ -32,7 +37,7 @@
 		85E557DC2CDAB55500E1AC12 = {
 			isa = PBXGroup;
 			children = (
-				85E557E72CDAB55500E1AC12 /* MyGeometricFigures */,
+				85E557FB2CDAB57F00E1AC12 /* MyGeometricFigures */,
 				85E557E62CDAB55500E1AC12 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +48,42 @@
 				85E557E52CDAB55500E1AC12 /* MyGeometricFigures.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		85E557F72CDAB57F00E1AC12 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				85E557F62CDAB57F00E1AC12 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		85E557FB2CDAB57F00E1AC12 /* MyGeometricFigures */ = {
+			isa = PBXGroup;
+			children = (
+				85E557FA2CDAB57F00E1AC12 /* MyGeometricFiguresApp.swift */,
+				85E558012CDAB59500E1AC12 /* Views */,
+				85E558002CDAB58700E1AC12 /* Model */,
+				85E557F72CDAB57F00E1AC12 /* Preview Content */,
+				85E557F82CDAB57F00E1AC12 /* Assets.xcassets */,
+			);
+			path = MyGeometricFigures;
+			sourceTree = "<group>";
+		};
+		85E558002CDAB58700E1AC12 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				85E558022CDAB5C300E1AC12 /* Rectangle.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		85E558012CDAB59500E1AC12 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				85E558042CDAB63E00E1AC12 /* RectangleView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +100,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				85E557E72CDAB55500E1AC12 /* MyGeometricFigures */,
 			);
 			name = MyGeometricFigures;
 			packageProductDependencies = (
@@ -109,6 +147,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85E557FC2CDAB57F00E1AC12 /* Preview Assets.xcassets in Resources */,
+				85E557FD2CDAB57F00E1AC12 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85E558032CDAB5C300E1AC12 /* Rectangle.swift in Sources */,
+				85E557FF2CDAB57F00E1AC12 /* MyGeometricFiguresApp.swift in Sources */,
+				85E558052CDAB63E00E1AC12 /* RectangleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
