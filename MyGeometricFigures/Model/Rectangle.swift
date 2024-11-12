@@ -13,8 +13,8 @@ protocol Describable {
 }
 
 struct Rectangle: Describable {
-    let width: Double
-    let length: Double
+    var width: Double
+    var length: Double
     
     var perimeter: Double {
         return width + width + length + length
@@ -27,3 +27,4 @@ struct Rectangle: Describable {
         return "The recrangle is a 4 sided shape and has a perimeter of \(perimeter) and a \(area)"
     }
 }
+var someRectangle = Rectangle(width: 10, length: 15)
